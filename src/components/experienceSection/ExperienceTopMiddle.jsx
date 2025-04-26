@@ -2,7 +2,7 @@ import expImg from "../../assets/images/experience-image.png";
 
 const ExperienceTopMiddle = () => {
   return (
-    <div className="lg:w-[35%] md:w-[50%] sm:w-[80%]">
+    <div className="lg:w-[35%] md:w-[40%] sm:w-[80%]">
       <img src={expImg} alt="my experience" />
     </div>
   );
