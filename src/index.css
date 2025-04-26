@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-sm: 350px;
+  --breakpoint-md: 898px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+  --font-roboto: "Roboto", "sans-serif";
+  --font-montserrat: "Montserrat", "sans-serif";
+  --font-opensans: "Open Sans", "sans-serif";
+  --font-josefinsans: "Josefin Sans", "sans-serif";
+  --color-regal-blue: #cb671b;
+  --color-brw: #53423e;
+  --color-lbrw: #645550;
+  --color-dbrw: #2c2523;
+  --color-blck: #1e1917;
+  --color-wht: #f1e1d9;
+  --color-cyn: #15d1e9;
+  --color-lCyan: #88e5f0;
+  --color-dCyan: #009fb3;
+  --color-ornge: #fb9718;
+  --color-lOrange: #fac27b;
+  --color-dOrange: #d28422;
+  --color-gry: #626965;
+  --color-lGrey: #978580;
+  --color-dGrey: #3f4441;
+  --shadow-cyanShadow: 0px 0px 20px 0px rgba(94, 206, 220, 0.5);
+  --shadow-cyanBigShadow: 10px 10px 1000px 500px rgba(94, 206, 220, 0.3);
+  --shadow-cyanMediumShadow: 10px 10px 200px 150px rgba(94, 206, 220, 0.5);
+  --shadow-orangeBigShadow: 10px 10px 10000px 500px rgba(240, 169, 79, 0.3);
+  --shadow-orangeMediumShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.5);
+}
+
+@layer base {
+  body {
+    @apply bg-dbrw;
+  }
+}
+
+/* @font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JoSans";
+  src: url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+  font-display: swap;
+} */
