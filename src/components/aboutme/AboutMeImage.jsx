@@ -1,4 +1,3 @@
-import React from "react";
 import aboutmesk from "../../assets/images/skills.avif";
 const AboutMeImgage = () => {
   return (

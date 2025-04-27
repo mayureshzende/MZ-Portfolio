@@ -1,5 +1,3 @@
-import React from "react";
-
 const Navlogo = () => {
   return (
     <div>

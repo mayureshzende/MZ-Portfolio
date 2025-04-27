@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import Navlinks from "./Navlinks";
 import Navbutton from "./Navbutton";
 import Navlogo from "./Navlogo";
@@ -20,7 +20,7 @@ const NavbarMain = () => {
   }, [menuOpen]);
   return (
     <div
-      className="max-w-[1280px] mx-auto px-1 w-full fixed backdrop-blur-2xl left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-0"
+      className="max-w-[1280px] mx-auto px-1 w-full fixed backdrop-blur-2xl left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-0 rounded-full"
       ref={menuRef}
     >
       {/* bg-blck */}

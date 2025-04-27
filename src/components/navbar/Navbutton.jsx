@@ -1,4 +1,3 @@
-import React from "react";
 import { LuArrowDownRight } from "react-icons/lu";
 import cv from "../../assets/mz-cv-wm-pf.pdf";
 const Navbutton = () => {

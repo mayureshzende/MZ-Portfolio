@@ -25,7 +25,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
         <a
           href={link}
           className={`text-lg flex gap-2 items-center text-cyn hover:text-ornge transition-all duration-500 cursor-pointer sm:justify-self-center ${
-            align === "left" ? "md:justify-self-end" : "md:justify-self-start"
+            align === "left" ? "md:justify-end" : "md:justify-self-start"
           }`}
         >
           View <BsFillArrowUpRightCircleFill />

@@ -16,7 +16,7 @@ const ContactInfo = () => {
     >
       <SingleInfo text="mayureshzende@gmail.com" Image={HiOutlineMail} />
       <SingleInfo text="+91 XXXXXXXXXX" Image={FiPhone} />
-      <SingleInfo text="Pune, Indias" Image={IoLocationOutline} />
+      <SingleInfo text="Pune, India" Image={IoLocationOutline} />
     </motion.div>
   );
 };

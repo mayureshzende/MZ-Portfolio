@@ -3,38 +3,31 @@ import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import prj1 from "../../assets/images/website-img-1.jpg";
-import prj2 from "../../assets/images/website-img-2.webp";
-import prj3 from "../../assets/images/website-img-3.jpg";
+import prj2 from "../../assets/images/github-actions.png";
+import prj3 from "../../assets/images/programming 01_AdobeStock_239326573.jpeg";
 import prj4 from "../../assets/images/website-img-4.jpg";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Socail Dev Connector",
+    year: "Dev 2024",
     align: "right",
     image: prj1,
-    link: "#",
+    link: "https://github.com/mayureshzende/DevConnect",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "GitHub Actions for Unit Test",
+    year: "Nov 2024",
     align: "left",
     image: prj2,
-    link: "#",
+    link: "https://github.com/mayureshzende/Danger-JS-Cool",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "CodeWars Solutions",
+    year: "Ongoing",
     align: "right",
     image: prj3,
-    link: "#",
-  },
-  {
-    name: "Bank of Luck",
-    year: "May2024",
-    align: "left",
-    image: prj4,
-    link: "#",
+    link: "https://github.com/mayureshzende/CodeWars-Solutions",
   },
 ];
 
@@ -58,6 +51,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}
