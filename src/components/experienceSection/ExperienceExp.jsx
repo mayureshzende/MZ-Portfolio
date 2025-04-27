@@ -1,4 +1,3 @@
-import { LinearGradient } from "react-text-gradients";
 import { fadeIn } from "../../framerMotion/variants";
 import {
   VerticalTimeline,
@@ -9,10 +8,8 @@ import { workExperiences } from "../constants/data";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import ExperienceText from "./ExperienceText";
-import { useState } from "react";
 
 const ExperienceCard = ({ experience }) => {
-  const [isleft, setIsLeft] = useState(true);
   return (
     <VerticalTimelineElement
       className="hover:scale-105 transition-all duration-300"

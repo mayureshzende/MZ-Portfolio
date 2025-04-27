@@ -19,16 +19,11 @@ const NavbarMain = () => {
     document.addEventListener("mousedown", handler);
   }, [menuOpen]);
   return (
-    <div
-      className="max-w-[1280px] mx-auto px-1 w-full fixed backdrop-blur-2xl left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-0 rounded-full"
+    <nav
+      className="max-w-[1300px] mx-auto w-full px-4 fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-2 backdrop-blur-2xl rounded-full "
       ref={menuRef}
     >
-      {/* bg-blck */}
-      <div
-        className="flex justify-between w-full max-w-[1080px] mx-auto 
-       items-center pt-2 pb-2 rounded-full  "
-        //  border-[0.1px] border-ornge"
-      >
+      <div className=" pt-2 pb-2 rounded-full flex justify-between w-full max-w-[1200px] mx-auto items-center p-6 rounded-r-full rounded-l-full">
         <Navlogo />
         <div className={`${menuOpen ? "sm:block" : "sm:hidden"} lg:block m-0`}>
           <Navlinks />
@@ -36,18 +31,15 @@ const NavbarMain = () => {
         <Navbutton />
       </div>
       {/* bg-black  */}
-      <div
-        className="lg:hidden sm: block p-7
-      items-center justify-center rounded-full"
-      >
+      <div className="lg:hidden sm:block p-7 items-center justify-center rounded-full">
         <button
-          className="text-white p-5 border border-ornge rounded-full"
+          className="text-white text-2xl p-5 border border-ornge rounded-full"
           onClick={() => toggleMenu()}
         >
           <GiHamburgerMenu />
         </button>
       </div>
-    </div>
+    </nav>
   );
 };
 

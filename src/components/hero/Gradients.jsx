@@ -135,7 +135,7 @@ export default function Gradients() {
         </p>
         <div className="mt-6">
           <a
-            href="#projects"
+            href="#"
             className="inline-block px-6 py-3 bg-white text-indigo-700 font-semibold rounded-lg shadow-md hover:bg-indigo-100 transition"
           >
             View Projects

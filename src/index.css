@@ -32,9 +32,9 @@
   --color-lGrey: #978580;
   --color-dGrey: #3f4441;
   --shadow-cyanShadow: 0px 0px 20px 0px rgba(94, 206, 220, 0.5);
-  --shadow-cyanBigShadow: 10px 10px 7000px 500px rgba(94, 206, 220, 0.3);
+  --shadow-cyanBigShadow: 10px 10px 1000px 500px rgba(94, 206, 220, 0.3);
   --shadow-cyanMediumShadow: 10px 10px 200px 150px rgba(94, 206, 220, 0.5);
-  --shadow-orangeBigShadow: 10px 10px 6000px 500px rgba(240, 169, 79, 0.3);
+  --shadow-orangeBigShadow: 10px 10px 10000px 500px rgba(240, 169, 79, 0.3);
   --shadow-orangeMediumShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.5);
 }
 
@@ -43,29 +43,3 @@
     @apply bg-dbrw;
   }
 }
-
-/* @font-face {
-  font-family: "Roboto";
-  src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-  font-display: swap;
-}
-
-
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "OpenSans";
-  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "JoSans";
-  src: url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-  font-display: swap;
-} */

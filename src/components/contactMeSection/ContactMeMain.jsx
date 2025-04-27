@@ -7,7 +7,7 @@ const ContactMeMain = () => {
   return (
     <div
       id="contact"
-      className="max-w-[1200px] mx-auto items-center justify-center mt-[100px] px-4 "
+      className="max-w-[1200px] mx-auto items-center justify-center mt-[50px] px-4 "
     >
       <motion.div
         variants={fadeIn("top", 0)}

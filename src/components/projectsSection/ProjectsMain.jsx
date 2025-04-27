@@ -5,7 +5,6 @@ import { fadeIn } from "../../framerMotion/variants";
 import prj1 from "../../assets/images/website-img-1.jpg";
 import prj2 from "../../assets/images/github-actions.png";
 import prj3 from "../../assets/images/programming 01_AdobeStock_239326573.jpeg";
-import prj4 from "../../assets/images/website-img-4.jpg";
 
 const projects = [
   {
