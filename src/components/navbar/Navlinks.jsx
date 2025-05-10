@@ -10,7 +10,7 @@ const Links = [
 
 const Navlinks = () => {
   return (
-    <ul className="flex lg:flex-row sm:flex-col gap-6 text-white font-body lg:relative sm:absolute sm:top-[120%] text-center left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:bg-cyan/30 lg:backdrop-blur-none md:backdrop-blur-2xl sm:backdrop-blur-2xl sm:w-full py-4">
+    <ul className="flex lg:flex-row sm:flex-col gap-6 text-white font-body lg:relative sm:absolute sm:top-[120%] text-center left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:bg-cyan/30 lg:backdrop-blur-none md:backdrop-blur-3xl sm:backdrop-blur-3xl sm:[backdrop-filter: blur(64px);--webkit-backdrop-filter: blur(64px);] md:[backdrop-filter: blur(64px);--webkit-backdrop-filter: blur(64px);] sm:w-full py-4 ">
       {/* lg:bg-blck  */}
       {Links.map((link, index) => {
         return (
