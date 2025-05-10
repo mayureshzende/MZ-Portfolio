@@ -13,7 +13,7 @@ const ContactMeMain = () => {
         variants={fadeIn("top", 0)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once: true, amount: 0.7 }}
       >
         <h2 className="text-6xl text-cyn mb-10 text-center">Contact Me</h2>
       </motion.div>

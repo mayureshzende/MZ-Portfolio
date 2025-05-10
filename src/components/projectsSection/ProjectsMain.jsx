@@ -2,33 +2,7 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-import prj1 from "../../assets/images/website-img-1.jpg";
-import prj2 from "../../assets/images/github-actions.png";
-import prj3 from "../../assets/images/programming 01_AdobeStock_239326573.jpeg";
-
-const projects = [
-  {
-    name: "Socail Dev Connector",
-    year: "Dev 2024",
-    align: "right",
-    image: prj1,
-    link: "https://github.com/mayureshzende/DevConnect",
-  },
-  {
-    name: "GitHub Actions for Unit Test",
-    year: "Nov 2024",
-    align: "left",
-    image: prj2,
-    link: "https://github.com/mayureshzende/Danger-JS-Cool",
-  },
-  {
-    name: "CodeWars Solutions",
-    year: "Ongoing",
-    align: "right",
-    image: prj3,
-    link: "https://github.com/mayureshzende/CodeWars-Solutions",
-  },
-];
+import { projects } from "../../components/constants/data";
 
 const ProjectsMain = () => {
   return (
@@ -37,7 +11,7 @@ const ProjectsMain = () => {
         variants={fadeIn("top", 0)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once: true, amount: 0.7 }}
       >
         <ProjectsText />
       </motion.div>

@@ -2,6 +2,7 @@ import AboutMeText from "./AboutMeText";
 import AboutMeImage from "./AboutMeImage";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import ContactSocial from "../contactMeSection/ContactSocial";
 
 const AboutMeMain = () => {
   return (
@@ -16,6 +17,9 @@ const AboutMeMain = () => {
         viewport={{ once: true, amount: 0.7 }}
       >
         <AboutMeText />
+        <div className="mt-6 md:flex md:w-full md:justify-start md:items-start sm:flex sm:w-full sm:justify-center sm:items-center">
+          <ContactSocial />
+        </div>
       </motion.div>
       <div className="md:block sm:hidden">
         <motion.div

@@ -60,7 +60,7 @@ const ExperienceExp = () => {
           variants={fadeIn("down", 0)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: true, amount: 0.7 }}
         >
           <ExperienceText />
         </motion.div>
@@ -76,7 +76,7 @@ const ExperienceExp = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-              viewport={{ once: false }}
+              viewport={{ once: true }}
             >
               {/* <LinearGradient gradient={["to left", "#ff9720 ,#fc0865"]}>
                 Work Experience

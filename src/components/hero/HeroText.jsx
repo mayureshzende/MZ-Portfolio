@@ -28,13 +28,13 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="text-white mt-4 text-lg font-montserrat"
+        className="text-white mt-2 text-lg font-montserrat"
       >
         Full Stack Developer with 5+ years of experience
         <br />
-        in building scalable web apps, and quickly adapting
+        in building scalable web apps using MERN Stack,
         <br />
-        to new technologies.
+        and quickly adapting to new technologies.
       </motion.p>
     </div>
   );
