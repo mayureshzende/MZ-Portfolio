@@ -21,7 +21,7 @@ const Navlinks = () => {
               duration={500}
               offset={-130}
               to={link.section}
-              className="cursor-pointer text-white hover:text-cyn transition-all duration-500 sm:backdrop-blur-3xl md:backdrop-blur-3xl"
+              className="cursor-pointer text-white hover:text-cyn transition-all duration-500"
             >
               {link.link}
             </Link>
