@@ -3,7 +3,7 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const HeroText = () => {
   return (
-    <div className="flex flex-col gap-4 h-full justify-center md:text-left sm:text-center">
+    <div className="flex flex-col gap-4 h-full justify-center md:text-left md:mt-4 sm:text-center sm:mt-4">
       <motion.h2
         variants={fadeIn("down", 0.2)}
         initial="hidden"

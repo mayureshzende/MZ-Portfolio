@@ -52,7 +52,7 @@ const FooterMain = () => {
           })}
         </ul>
       </div>
-      <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 font-medium text-lg text-wht">
+      <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 font-medium text-lg text-wht lg:block md:block sm:flex sm:justify-center sm:items-center sm:pt-4">
         © {currentYear} Mayuresh | All Rights Reserved.
       </p>
     </motion.div>

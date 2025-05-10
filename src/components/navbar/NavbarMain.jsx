@@ -20,7 +20,7 @@ const NavbarMain = () => {
   }, [menuOpen]);
   return (
     <nav
-      className="max-w-[1300px] mx-auto w-full px-4 fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-2 backdrop-blur-2xl rounded-full "
+      className="max-w-[1300px] mx-auto  left-[50%] -translate-x-[50%] w-full px-4 fixed z-20 flex gap-4 mt-2 backdrop-blur-2xl rounded-full "
       ref={menuRef}
     >
       <div className=" pt-2 pb-2 rounded-full flex justify-between w-full max-w-[1200px] mx-auto items-center p-6 rounded-r-full rounded-l-full">
@@ -31,7 +31,7 @@ const NavbarMain = () => {
         <Navbutton />
       </div>
       {/* bg-black  */}
-      <div className="lg:hidden sm:block p-7 items-center justify-center rounded-full">
+      <div className="lg:hidden sm:block items-center justify-center rounded-full p-2">
         <button
           className="text-white text-2xl p-5 border border-ornge rounded-full"
           onClick={() => toggleMenu()}

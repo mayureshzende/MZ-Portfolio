@@ -12,7 +12,7 @@ const HeroPic = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className=" h-full flex items-center justify-center md:my-20 sm:my-10"
+        className=" h-full flex items-center justify-center md:my-20 sm:my-10 overflow-hidden"
       >
         <img
           src={mzo2}
