@@ -23,6 +23,7 @@
   --color-brw: #53423e;
   --color-lbrw: #645550;
   --color-dbrw: #2c2523;
+  --color-dnavbrw: #2f2a29;
   --color-blck: #1e1917;
   --color-wht: #f1e1d9;
   --color-cyn: #15d1e9;
@@ -77,5 +78,20 @@
 @layer base {
   body {
     @apply bg-dbrw;
+  }
+}
+@layer utilities {
+  /*
+    Chromium browsers don't render nested backdrop filters.
+    As a workaround, add 'before:' to the outer filter, along with 'before:backdrop-hack':
+
+      <div class="before:backdrop-blur-md before:backdrop-hack>
+        <div class="backdrop-blur-md"></div>
+      </div>
+
+    See https://stackoverflow.com/a/76207141.
+  */
+  .backdrop-hack {
+    @apply absolute inset-0 -z-10;
   }
 }
