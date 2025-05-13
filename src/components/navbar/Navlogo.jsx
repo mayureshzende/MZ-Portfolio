@@ -7,7 +7,7 @@ const Navlogo = () => {
         </h1>
       </a>
       <a href="#" className="cursor-pointer">
-        <h1 className="text-white font-special font-extrabold font-josefinsans text-4xl md:hidden sm:block">
+        <h1 className="text-white font-special font-extrabold font-josefinsans text-4xl md:hidden sm:block sm:pt-2">
           MZ
         </h1>
       </a>
