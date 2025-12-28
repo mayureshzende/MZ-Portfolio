@@ -60,7 +60,7 @@ export const workExperiences = [
     id: 2,
     company: "Q2 Software",
     position: "Full Stack-Software Developer",
-    duration: "November 2022 - current",
+    duration: "November 2022 - August 2025",
     icon: q2gl,
     duties: [
       "Developed backend APIs using Python and Node.js, that efficiently communicate with the Postgres SQL database.",
