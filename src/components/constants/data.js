@@ -1,4 +1,5 @@
 import q2gl from "../../assets/icons/q2-gl.svg";
+import enbd from "../../assets/icons/enbd.jpeg";
 import gl from "../../assets/icons/globallogo.png";
 import bl from "../../assets/icons/bitwise_logo.jpg";
 import prj1 from "../../assets/images/website-img-1.jpg";
@@ -7,23 +8,30 @@ import prj3 from "../../assets/images/programming 01_AdobeStock_239326573.jpeg";
 
 export const projects = [
   {
+    name: "Blink-IT clone",
+    year: "Dec 202",
+    align: "right",
+    image: prj1,
+    link: "https://github.com/mayureshzende/blinkIT_clone",
+  },
+  {
     name: "Socail Dev Connector",
     year: "Dev 2024",
-    align: "right",
+    align: "left",
     image: prj1,
     link: "https://github.com/mayureshzende/DevConnect",
   },
   {
     name: "GitHub Actions for Unit Test",
     year: "Nov 2024",
-    align: "left",
+    align: "right",
     image: prj2,
     link: "https://github.com/mayureshzende/Danger-JS-Cool",
   },
   {
     name: "CodeWars Solutions",
     year: "Ongoing",
-    align: "right",
+    align: "left",
     image: prj3,
     link: "https://github.com/mayureshzende/CodeWars-Solutions",
   },
@@ -32,6 +40,24 @@ export const projects = [
 export const workExperiences = [
   {
     id: 1,
+    company: "Emirates NBD",
+    position: "Full Stack-Software Developer",
+    duration: "August 2025 - current",
+    icon: enbd,
+    duties: [
+      "Working as a Full-Stack Web Developer on a high-scale portfolio management platform for corporate banking clients and regional managers.",
+      "Designed and developed React-based micro-frontend architectures, enabling independent deployments and faster feature scalability across teams.",
+      "Built and maintained scalable backend services using Node.js, supporting real-time portfolio insights, client aggregation, and core business workflows.",
+      "Implemented event-driven microservices using Apache Kafka, improving system resilience, throughput, and asynchronous communication.",
+      "Designed and optimized MongoDB schemas and queries to efficiently handle large volumes of financial and portfolio data.",
+      "Delivered features in a fast-paced Agile environment, working in short sprints with rapid iteration and stakeholder feedback.",
+      "Collaborated closely with product owners, designers, and business stakeholders to translate complex banking requirements into scalable technical solutions.",
+      "Ensured high-quality delivery through code reviews, performance optimization, and engineering best practices.",
+      "Actively participated in system design and architecture discussions, focusing on scalability, maintainability, and long-term platform evolution.",
+    ],
+  },
+  {
+    id: 2,
     company: "Q2 Software",
     position: "Full Stack-Software Developer",
     duration: "November 2022 - current",
@@ -49,7 +75,7 @@ export const workExperiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     company: "GLOBALLOGIC",
     position: "Full Stack Software Developer",
     duration: "January 2021 - November 2022",
@@ -63,7 +89,7 @@ export const workExperiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     company: "BITWISE",
     position: "Trainee Software Developer",
     duration: "August 2019 - June 2020",
