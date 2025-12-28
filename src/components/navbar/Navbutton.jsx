@@ -1,5 +1,6 @@
 import { LuArrowDownRight } from "react-icons/lu";
-import cv from "../../assets/mz-cv-wm-pf.pdf";
+// import cv from "../../assets/mz-cv-wm-pf.pdf";
+import cv from "../../assets/Portfolio_dubai_experience_resume_december_2025.pdf";
 const Navbutton = () => {
   return (
     <a href={cv} download={"mayuresh-zende-fullStack-aws"}>
