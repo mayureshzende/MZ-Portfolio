@@ -53,7 +53,7 @@ mindmap
 
 ## 🚀 Demo
 
-Experience the live portfolio at [https://portfolio-mayuresh.vercel.app](https://portfolio-mayuresh.vercel.app)
+Experience the live portfolio at [https://mayureshzende.github.io/MZ-Portfolio/](https://mayureshzende.github.io/MZ-Portfolio/)
 
 ## 🛠️ Installation
 
