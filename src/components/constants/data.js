@@ -9,7 +9,7 @@ import prj3 from "../../assets/images/programming 01_AdobeStock_239326573.jpeg";
 export const projects = [
   {
     name: "Blink-IT clone",
-    year: "Dec 202",
+    year: "Dec 2025",
     align: "right",
     image: prj1,
     link: "https://github.com/mayureshzende/blinkIT_clone",
